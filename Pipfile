@@ -12,6 +12,7 @@ numpy = '*'
 jupyter = "*"
 matplotlib = "*"
 mitdeeplearning = "*"
+tensorflow = "*"
 
 [requires]
 python_version = "3.8"
