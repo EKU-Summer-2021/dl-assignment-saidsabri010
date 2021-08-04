@@ -16,10 +16,10 @@ class PolynomialTets(unittest.TestCase):
         test method
         """
         # given
-        poli = Polynomial(np.array([1, 0, 0]))
+        polio = Polynomial(np.array([1, 0, 0]))
         x_value = 3
         expected = 9
         # when
-        actual = poli.evaluate(x_value)
+        actual = polio.evaluate(x_value)
         # then
         self.assertEqual(expected, actual)
