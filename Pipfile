@@ -9,6 +9,9 @@ coverage = '*'
 
 [packages]
 numpy = '*'
+jupyter = "*"
+matplotlib = "*"
+mitdeeplearning = "*"
 
 [requires]
 python_version = "3.8"
