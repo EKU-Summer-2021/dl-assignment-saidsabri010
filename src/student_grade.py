@@ -1,10 +1,10 @@
 """
 module for student grade prediction
 """
-import keras_tuner as kt # pylint: disable=E0401
-from tensorflow import keras # pylint: disable=E0401
-from keras.utils.vis_utils import plot_model # pylint: disable=E0401
-from sklearn.model_selection import train_test_split # pylint: disable=E0401
+import keras_tuner as kt  # pylint: disable=E0401
+from tensorflow import keras  # pylint: disable=E0401
+from keras.utils.vis_utils import plot_model  # pylint: disable=E0401
+from sklearn.model_selection import train_test_split  # pylint: disable=E0401
 
 
 class KerasModel:
