@@ -1,8 +1,11 @@
-import numpy as np
-from src import Polynomial
+"""
+this is the main module
+"""
+import pandas as pd
+from src.student_grade import KerasModel
 
-if __name__ == '__main__':
-    coeffs = np.array([1,0,0])
-    polynom = Polynomial(coeffs)
-    print(polynom.evaluate(3))
-    print(polynom.roots())
+data = pd.read_csv('https://raw.githubusercontent.com/saidsabri010/dataset/main/Concrete_Data_Yeh.csv')
+
+instance = KerasModel(data.drop(columns=['csMPa']),
+                      data['csMPa']) # pylint: disable=E1136
+print(instance.run_model())
