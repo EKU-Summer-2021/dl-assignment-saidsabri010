@@ -9,6 +9,8 @@ coverage = '*'
 
 [packages]
 numpy = '*'
-
+scikit-learn = "*"
+pandas = "*"
+keras_tuner = "*"
 [requires]
 python_version = "3.8"
